@@ -96,7 +96,7 @@ const CARS = [
     model: "G63 AMG",
     type: "Позашляховик",
     year: 2023,
-    images: ["images/g63/1.jpg", "images/g63/2.jpg", "images/g63/3.jpg", "images/g63/4.jpg"],
+    images: ["images/g63/1.jpg", "images/g63/2.jpg", "images/g63/3.jpg", "images/g63/4.jpg", "images/g63/5.jpg"],
     cardSpecs: [
       { label: "Потужність", value: "585 к.с." },
       { label: "Розгін 0–100", value: "4.5 с" },
