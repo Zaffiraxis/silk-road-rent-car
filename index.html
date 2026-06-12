@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silk Road Rent Car — оренда преміальних авто в Києві</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__main">SILK ROAD</span>
+        <span class="logo__sub">RENT CAR</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="active">Головна</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="index.html#contacts">Контакти</a>
+      </nav>
+      <div class="header__actions">
+        <a href="catalog.html" class="btn btn-primary header__cta">Підібрати авто</a>
+        <button class="burger" id="burger" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav__links">
+      <a href="index.html">Головна</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="index.html#contacts">Контакти</a>
+    </div>
+    <div class="mobile-nav__footer">
+      Зв'яжіться з нами
+      <a href="tel:+380990000000">+380 99 000 00 00</a>
+      <a href="https://t.me/silkroad_rentcar">Telegram</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="images/urus/1.jpg" alt="Lamborghini Urus" />
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <div class="eyebrow">Silk Road · Luxury &amp; Premium Cars</div>
+      <h1>Оренда<br />преміальних<br />авто</h1>
+      <p class="hero__lead">
+        Lamborghini, BMW M, Mercedes-AMG, Range Rover — з водієм або без.
+        Подача по Києву та області протягом 2 годин, повний бак та чистий салон.
+      </p>
+      <div class="hero__actions">
+        <a href="catalog.html" class="btn btn-primary">Перейти до каталогу</a>
+        <a href="#why" class="btn btn-outline">Чому ми</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why us -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Чому обирають нас</div>
+        <h2>Сервіс, який відповідає рівню авто</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-item__num">01</div>
+          <h3>Для важливої події</h3>
+          <p>Весілля, фотосесія чи бізнес-зустріч — авто, де кожна деталь має значення.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">02</div>
+          <h3>Без зайвої бюрократії</h3>
+          <p>Мінімум документів та часу на оформлення — без зайвих процесів.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">03</div>
+          <h3>Подача за 2 години</h3>
+          <p>По Києву та області — безкоштовно, з повним баком та ідеально чистим салоном.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">04</div>
+          <h3>Авто з водієм</h3>
+          <p>Професійний сервіс для впевненості у комфорті та рівні поїздки.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">05</div>
+          <h3>Преміальність та статус</h3>
+          <p>Автомобілі, які цінують статус і вміють справляти враження.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalog preview -->
+  <section class="section" style="border-top: 1px solid var(--border)">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Автопарк</div>
+        <h2>Преміальні авто в наявності</h2>
+        <p>Кожен автомобіль перевірений, заправлений та готовий до подачі.</p>
+      </div>
+      <div class="catalog-grid catalog-grid--preview" id="previewGrid"></div>
+      <a href="catalog.html" class="btn btn-outline">Весь каталог</a>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section section--lg" style="border-top: 1px solid var(--border)">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Як це працює</div>
+        <h2>Від вибору авто до подачі — 3 кроки</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">01</div>
+          <h3>Оберіть авто</h3>
+          <p>Перегляньте каталог, ознайомтесь з характеристиками й тарифами оренди.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">02</div>
+          <h3>Залиште заявку</h3>
+          <p>Вкажіть ім'я, телефон та зручний месенджер — це займе менше хвилини.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">03</div>
+          <h3>Підтвердження</h3>
+          <p>Менеджер зв'яжеться з вами та узгодить деталі й час подачі автомобіля.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo">
+            <span class="logo__main">SILK ROAD</span>
+            <span class="logo__sub">RENT CAR</span>
+          </a>
+          <p>Оренда преміальних автомобілів у Києві та області. Подача за 2 години, повний бак, ідеально чистий салон.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Меню</h4>
+          <a href="index.html">Головна</a>
+          <a href="catalog.html">Каталог</a>
+        </div>
+        <div class="footer__col">
+          <h4>Контакти</h4>
+          <a href="tel:+380990000000">+380 99 000 00 00</a>
+          <a href="https://t.me/silkroad_rentcar">Telegram</a>
+          <a href="https://wa.me/380990000000">WhatsApp</a>
+        </div>
+        <div class="footer__col">
+          <h4>Сервіс</h4>
+          <p>Подача по Києву та області</p>
+          <p>Повне КАСКО</p>
+          <p>Автомобіль з водієм</p>
+        </div>
+      </div>
+      <div class="footer__bottom">© 2026 Silk Road Rent Car. Усі права захищені.</div>
+    </div>
+  </footer>
+
+  <script src="js/cars.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
